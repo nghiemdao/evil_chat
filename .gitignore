@@ -20,3 +20,6 @@
 /public/packs
 /public/packs-test
 /node_modules
+
+db/development.sqlite3
+db/test.sqlite3
