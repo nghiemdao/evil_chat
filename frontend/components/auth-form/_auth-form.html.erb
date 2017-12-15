@@ -1,0 +1,8 @@
+<!-- frontend/components/auth/_auth-form.html.erb -->
+<div class="auth-form">
+  <%= form_with url: login_path, method: :post do |f| %>
+    <%= f.text_field :username, value: "", class: "auth-form--input", 
+      placeholder: "Choose your username...", autofocus: true, required: true %>
+    <%= f.submit "Identify me", class: "auth-form--submit" %>
+  <% end %>
+</div>
